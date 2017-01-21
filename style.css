@@ -1,0 +1,35 @@
+
+body {
+  display: block;
+}
+.page-header {
+  margin: 50px auto;
+}
+h1 {
+  font-family: "Lobster", sans-serif;
+  font-size: 48px;
+}
+div.row {
+  margin: 3% 10% 3% 10%;
+}
+.box {
+  border: 1px solid #777;
+  margin: 2px 1px 2px 1px;
+  width: 300px;
+  height: 350px:
+  /*box-shadow: 1px 1px 1px;*/
+  padding: 20px 40px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 3em;
+}
+
+#box-temp {
+  background-color: orange;
+}
+#box-sky {
+  background-color: lightblue;
+}
+#box-speed {
+  background-color: lightgreen;
+}
