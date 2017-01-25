@@ -25,9 +25,13 @@ if (navigator.geolocation) {
           $("#wind").html(data.wind.speed + "m/s");
 
           if (weather == "few clouds") {
-            $("#weather-icon").html("<img src='./images/few_clouds.jpg'>");
+            $("#weather-icon").html("<img src='./images/few_clouds2.jpg'>");
           }
+
           if (weather == "broken clouds") {
+            $("#weather-icon").html("<img src='./images/broken_clouds.jpg'>");
+          }
+          if (weather == "scattered clouds") {
             $("#weather-icon").html("<img src='./images/broken_clouds.jpg'>");
           }
 
