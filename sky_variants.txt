@@ -2,3 +2,5 @@ TYPES OF SKIES
 ===============
 * few clouds
 * broken clouds
+* clear sky
+* moderate rain

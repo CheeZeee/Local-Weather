@@ -9,7 +9,7 @@ if (navigator.geolocation) {
         dataType: "json",
         success: function(data) {
           var weather = data.weather[0].description;
-          var tempCelsius = data.main.temp;
+          var tempCelsius = Math.round(data.main.temp);
           var tempFahrenheit = Math.round((9/5 * tempCelsius) + 32);
 
           $("button").toggle(
