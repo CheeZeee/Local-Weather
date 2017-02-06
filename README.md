@@ -9,4 +9,4 @@
 
 1. Make sure your location is turned on
 
-2. Fire up a browser and navigate to "https://cheezeee.github.com/Local-Weather"
+2. Fire up a browser and navigate to "http://cheezeee.github.io/Local-Weather"
